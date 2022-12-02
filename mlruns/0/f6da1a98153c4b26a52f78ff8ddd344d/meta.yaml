@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/f6da1a98153c4b26a52f78ff8ddd344d/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f6da1a98153c4b26a52f78ff8ddd344d
+run_name: smiling-kit-976
+run_uuid: f6da1a98153c4b26a52f78ff8ddd344d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669239037735
+status: 1
+tags: []
+user_id: moutasemhome

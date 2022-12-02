@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/7ad547c0963646d3a66e1f7b0aa4b8c1/artifacts
+end_time: 1669670742712
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7ad547c0963646d3a66e1f7b0aa4b8c1
+run_name: vaunted-gull-497
+run_uuid: 7ad547c0963646d3a66e1f7b0aa4b8c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669670693362
+status: 3
+tags: []
+user_id: moutasemhome

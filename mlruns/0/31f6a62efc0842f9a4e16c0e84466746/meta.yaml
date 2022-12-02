@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/31f6a62efc0842f9a4e16c0e84466746/artifacts
+end_time: 1668954272911
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 31f6a62efc0842f9a4e16c0e84466746
+run_name: exultant-duck-698
+run_uuid: 31f6a62efc0842f9a4e16c0e84466746
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668954133221
+status: 3
+tags: []
+user_id: moutasemhome

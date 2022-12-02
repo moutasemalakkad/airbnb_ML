@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/512390c67b1e41ea8bb182c3ed39524d/artifacts
+end_time: 1669240046070
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 512390c67b1e41ea8bb182c3ed39524d
+run_name: popular-gull-902
+run_uuid: 512390c67b1e41ea8bb182c3ed39524d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669239863774
+status: 4
+tags: []
+user_id: moutasemhome

@@ -1,0 +1,18 @@
+2022-11-28 14:00:33,752 Minimum price: 10, Maximum price: 350
+2022-11-28 14:00:33,774 Preparing sklearn pipeline
+Traceback (most recent call last):
+  File "run.py", line 307, in <module>
+    go(args)
+  File "run.py", line 72, in go
+    sk_pipe, processed_features = get_inference_pipeline(rf_config, args.max_tfidf_features)
+  File "run.py", line 183, in get_inference_pipeline
+    non_ordinal_categorical_preproc = make_pipeline([('simple imputer', SimpleImputer(strategy="most_frequent")), ('one-hot encoder', OneHotEncoder())])
+  File "/Users/moutasemhome/opt/anaconda3/envs/mlflow-5fdf16e46ab1f03d820360695f0f3a66fe63e54f/lib/python3.8/site-packages/sklearn/pipeline.py", line 729, in make_pipeline
+    return Pipeline(_name_estimators(steps), memory=memory, verbose=verbose)
+  File "/Users/moutasemhome/opt/anaconda3/envs/mlflow-5fdf16e46ab1f03d820360695f0f3a66fe63e54f/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/moutasemhome/opt/anaconda3/envs/mlflow-5fdf16e46ab1f03d820360695f0f3a66fe63e54f/lib/python3.8/site-packages/sklearn/pipeline.py", line 118, in __init__
+    self._validate_steps()
+  File "/Users/moutasemhome/opt/anaconda3/envs/mlflow-5fdf16e46ab1f03d820360695f0f3a66fe63e54f/lib/python3.8/site-packages/sklearn/pipeline.py", line 176, in _validate_steps
+    raise TypeError(
+TypeError: Last step of Pipeline should implement fit or be the string 'passthrough'. '[('simple imputer', SimpleImputer(strategy='most_frequent')), ('one-hot encoder', OneHotEncoder())]' (type <class 'list'>) doesn't

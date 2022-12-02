@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/mlruns/0/e08f5050b26d4937994849a6f72cdfab/artifacts
+end_time: 1669164358494
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e08f5050b26d4937994849a6f72cdfab
+run_name: efficient-shrew-936
+run_uuid: e08f5050b26d4937994849a6f72cdfab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669164151124
+status: 4
+tags: []
+user_id: moutasemhome

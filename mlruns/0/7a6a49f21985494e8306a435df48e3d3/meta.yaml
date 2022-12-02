@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/7a6a49f21985494e8306a435df48e3d3/artifacts
+end_time: 1669165413945
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7a6a49f21985494e8306a435df48e3d3
+run_name: shivering-snake-365
+run_uuid: 7a6a49f21985494e8306a435df48e3d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669165048726
+status: 4
+tags: []
+user_id: moutasemhome

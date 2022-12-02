@@ -1,0 +1,13 @@
+2022-11-25 08:05:58,048 INFO    MainThread:3505 [wandb_setup.py:_flush():68] Configure stats pid to 3505
+2022-11-25 08:05:58,048 INFO    MainThread:3505 [wandb_setup.py:_flush():68] Loading settings from /Users/moutasemhome/.config/wandb/settings
+2022-11-25 08:05:58,048 INFO    MainThread:3505 [wandb_setup.py:_flush():68] Loading settings from /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/data_check/wandb/settings
+2022-11-25 08:05:58,048 INFO    MainThread:3505 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'project': 'nyc_airbnb', 'run_group': 'development', '_require_service': 'True'}
+2022-11-25 08:05:58,048 WARNING MainThread:3505 [wandb_setup.py:_flush():68] Could not save program above cwd: /Users/moutasemhome/opt/anaconda3/envs/mlflow-fc134cfdd9953e1f4a70795dedef12a111fef728/bin/pytest
+2022-11-25 08:05:58,048 INFO    MainThread:3505 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': None, 'program': '/Users/moutasemhome/opt/anaconda3/envs/mlflow-fc134cfdd9953e1f4a70795dedef12a111fef728/bin/pytest'}
+2022-11-25 08:05:58,049 INFO    MainThread:3505 [wandb_init.py:_log_setup():476] Logging user logs to /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/data_check/wandb/run-20221125_080558-m7f8rca7/logs/debug.log
+2022-11-25 08:05:58,049 INFO    MainThread:3505 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/data_check/wandb/run-20221125_080558-m7f8rca7/logs/debug-internal.log
+2022-11-25 08:05:58,049 INFO    MainThread:3505 [wandb_init.py:init():516] calling init triggers
+2022-11-25 08:05:58,049 INFO    MainThread:3505 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-25 08:05:58,049 INFO    MainThread:3505 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-11-25 08:06:02,325 WARNING MsgRouterThr:3505 [router.py:message_loop():77] message_loop has been closed

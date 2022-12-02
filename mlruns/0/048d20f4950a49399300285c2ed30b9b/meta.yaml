@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/048d20f4950a49399300285c2ed30b9b/artifacts
+end_time: 1669670629732
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 048d20f4950a49399300285c2ed30b9b
+run_name: angry-mink-989
+run_uuid: 048d20f4950a49399300285c2ed30b9b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669670577647
+status: 3
+tags: []
+user_id: moutasemhome

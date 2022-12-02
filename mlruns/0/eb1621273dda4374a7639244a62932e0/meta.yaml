@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/eb1621273dda4374a7639244a62932e0/artifacts
+end_time: 1669381563349
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eb1621273dda4374a7639244a62932e0
+run_name: rogue-cub-634
+run_uuid: eb1621273dda4374a7639244a62932e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669381458080
+status: 3
+tags: []
+user_id: moutasemhome

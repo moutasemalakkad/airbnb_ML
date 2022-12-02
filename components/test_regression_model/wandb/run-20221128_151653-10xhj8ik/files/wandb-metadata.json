@@ -1,0 +1,27 @@
+{
+    "os": "macOS-13.0.1-x86_64-i386-64bit",
+    "python": "3.9.15",
+    "heartbeatAt": "2022-11-28T20:16:56.320002",
+    "startedAt": "2022-11-28T20:16:53.648544",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--mlflow_model",
+        "random_forest_export:prod",
+        "--test_dataset",
+        "test_data.csv:latest"
+    ],
+    "state": "running",
+    "program": "/Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/run.py",
+    "codePath": "components/test_regression_model/run.py",
+    "git": {
+        "remote": "https://github.com/moutasemalakkad/build-ml-pipeline-for-short-term-rental-prices.git",
+        "commit": "c3a780677329ece990d4cd62fb2de4557cc451a9"
+    },
+    "email": "moutasemalakkad@gmail.com",
+    "root": "/Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices",
+    "host": "Moutasems-MBP-2.cable.rcn.com",
+    "username": "moutasemhome",
+    "executable": "/Users/moutasemhome/opt/anaconda3/envs/mlflow-1407e10a05722dc81122862aa4ff4e8bb3ea0b26/bin/python"
+}

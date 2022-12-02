@@ -1,0 +1,41 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.15",
+    "heartbeatAt": "2022-11-23T22:53:25.305572",
+    "startedAt": "2022-11-23T22:53:24.823422",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "EDA.ipynb",
+    "root": "/Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices",
+    "git": {
+        "remote": "https://github.com/moutasemalakkad/build-ml-pipeline-for-short-term-rental-prices.git",
+        "commit": "505a8a27a01e9f6e226f7396e0c3623b0b7d9dbf"
+    },
+    "email": "moutasemalakkad@gmail.com",
+    "host": "Moutasems-MBP-2.cable.rcn.com",
+    "username": "moutasemhome",
+    "executable": "/Users/moutasemhome/opt/anaconda3/envs/mlflow-153ae590ccce1e345719611f31ad86ecb9f64cb9/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2200,
+        "min": 2200,
+        "max": 2200
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2200,
+            "min": 2200,
+            "max": 2200
+        }
+    ],
+    "disk": {
+        "total": 233.34413528442383,
+        "used": 203.58425521850586
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

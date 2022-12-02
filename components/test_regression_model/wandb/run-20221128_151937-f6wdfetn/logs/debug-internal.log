@@ -1,0 +1,139 @@
+2022-11-28 15:19:37,850 INFO    MainThread:7929 [internal.py:wandb_internal():88] W&B internal server running at pid: 7929, started at: 2022-11-28 15:19:37.850751
+2022-11-28 15:19:37,852 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: check_version
+2022-11-28 15:19:37,852 INFO    WriterThread:7929 [datastore.py:open_for_write():77] open: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/run-f6wdfetn.wandb
+2022-11-28 15:19:37,853 DEBUG   SenderThread:7929 [sender.py:send():179] send: header
+2022-11-28 15:19:37,853 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: check_version
+2022-11-28 15:19:37,985 DEBUG   SenderThread:7929 [sender.py:send():179] send: run
+2022-11-28 15:19:38,174 INFO    SenderThread:7929 [dir_watcher.py:__init__():168] watching files in: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files
+2022-11-28 15:19:38,174 INFO    SenderThread:7929 [sender.py:_start_run_threads():704] run started: f6wdfetn with start time 1669666777
+2022-11-28 15:19:38,174 DEBUG   SenderThread:7929 [sender.py:send():179] send: summary
+2022-11-28 15:19:38,175 INFO    SenderThread:7929 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2022-11-28 15:19:38,175 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: run_start
+2022-11-28 15:19:38,176 DEBUG   HandlerThread:7929 [meta.py:__init__():39] meta init
+2022-11-28 15:19:38,176 DEBUG   HandlerThread:7929 [meta.py:__init__():53] meta init done
+2022-11-28 15:19:38,176 DEBUG   HandlerThread:7929 [meta.py:probe():210] probe
+2022-11-28 15:19:38,181 DEBUG   HandlerThread:7929 [meta.py:_setup_git():200] setup git
+2022-11-28 15:19:38,215 DEBUG   HandlerThread:7929 [meta.py:_setup_git():207] setup git done
+2022-11-28 15:19:38,215 DEBUG   HandlerThread:7929 [meta.py:_save_pip():57] save pip
+2022-11-28 15:19:38,216 DEBUG   HandlerThread:7929 [meta.py:_save_pip():71] save pip done
+2022-11-28 15:19:38,216 DEBUG   HandlerThread:7929 [meta.py:_save_conda():78] save conda
+2022-11-28 15:19:39,179 INFO    Thread-8  :7929 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/wandb-summary.json
+2022-11-28 15:19:39,179 INFO    Thread-8  :7929 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/conda-environment.yaml
+2022-11-28 15:19:39,180 INFO    Thread-8  :7929 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/requirements.txt
+2022-11-28 15:19:40,389 DEBUG   HandlerThread:7929 [meta.py:_save_conda():86] save conda done
+2022-11-28 15:19:40,389 DEBUG   HandlerThread:7929 [meta.py:probe():252] probe done
+2022-11-28 15:19:40,393 DEBUG   SenderThread:7929 [sender.py:send():179] send: files
+2022-11-28 15:19:40,393 INFO    SenderThread:7929 [sender.py:_save_file():829] saving file wandb-metadata.json with policy now
+2022-11-28 15:19:40,397 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: stop_status
+2022-11-28 15:19:40,397 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: stop_status
+2022-11-28 15:19:40,552 DEBUG   SenderThread:7929 [sender.py:send():179] send: config
+2022-11-28 15:19:41,002 INFO    Thread-11 :7929 [upload_job.py:push():133] Uploaded file /var/folders/qk/l_xbycpx5hv535475y2nss_r0000gn/T/tmpxgx544b0wandb/2cchm69j-wandb-metadata.json
+2022-11-28 15:19:41,185 INFO    Thread-8  :7929 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/conda-environment.yaml
+2022-11-28 15:19:41,186 INFO    Thread-8  :7929 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/output.log
+2022-11-28 15:19:41,186 INFO    Thread-8  :7929 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/wandb-metadata.json
+2022-11-28 15:19:42,187 INFO    Thread-8  :7929 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/config.yaml
+2022-11-28 15:19:42,929 DEBUG   SenderThread:7929 [sender.py:send():179] send: telemetry
+2022-11-28 15:19:42,930 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: poll_exit
+2022-11-28 15:19:43,099 DEBUG   SenderThread:7929 [sender.py:send():179] send: exit
+2022-11-28 15:19:43,099 INFO    SenderThread:7929 [sender.py:send_exit():287] handling exit code: 1
+2022-11-28 15:19:43,099 INFO    SenderThread:7929 [sender.py:send_exit():295] send defer
+2022-11-28 15:19:43,099 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: poll_exit
+2022-11-28 15:19:43,100 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: defer
+2022-11-28 15:19:43,100 INFO    HandlerThread:7929 [handler.py:handle_request_defer():141] handle defer: 0
+2022-11-28 15:19:43,100 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: defer
+2022-11-28 15:19:43,100 INFO    SenderThread:7929 [sender.py:send_request_defer():304] handle sender defer: 0
+2022-11-28 15:19:43,100 INFO    SenderThread:7929 [sender.py:send_request_defer():342] send defer: 1
+2022-11-28 15:19:43,101 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: defer
+2022-11-28 15:19:43,101 INFO    HandlerThread:7929 [handler.py:handle_request_defer():141] handle defer: 1
+2022-11-28 15:19:43,122 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: defer
+2022-11-28 15:19:43,122 INFO    SenderThread:7929 [sender.py:send_request_defer():304] handle sender defer: 1
+2022-11-28 15:19:43,122 INFO    SenderThread:7929 [sender.py:send_request_defer():342] send defer: 2
+2022-11-28 15:19:43,123 DEBUG   SenderThread:7929 [sender.py:send():179] send: stats
+2022-11-28 15:19:43,123 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: defer
+2022-11-28 15:19:43,123 INFO    HandlerThread:7929 [handler.py:handle_request_defer():141] handle defer: 2
+2022-11-28 15:19:43,123 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: defer
+2022-11-28 15:19:43,123 INFO    SenderThread:7929 [sender.py:send_request_defer():304] handle sender defer: 2
+2022-11-28 15:19:43,124 INFO    SenderThread:7929 [sender.py:send_request_defer():342] send defer: 3
+2022-11-28 15:19:43,124 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: defer
+2022-11-28 15:19:43,124 INFO    HandlerThread:7929 [handler.py:handle_request_defer():141] handle defer: 3
+2022-11-28 15:19:43,124 DEBUG   SenderThread:7929 [sender.py:send():179] send: summary
+2022-11-28 15:19:43,125 INFO    SenderThread:7929 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2022-11-28 15:19:43,125 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: defer
+2022-11-28 15:19:43,125 INFO    SenderThread:7929 [sender.py:send_request_defer():304] handle sender defer: 3
+2022-11-28 15:19:43,125 INFO    SenderThread:7929 [sender.py:send_request_defer():342] send defer: 4
+2022-11-28 15:19:43,125 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: defer
+2022-11-28 15:19:43,125 INFO    HandlerThread:7929 [handler.py:handle_request_defer():141] handle defer: 4
+2022-11-28 15:19:43,126 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: defer
+2022-11-28 15:19:43,126 INFO    SenderThread:7929 [sender.py:send_request_defer():304] handle sender defer: 4
+2022-11-28 15:19:43,126 INFO    SenderThread:7929 [sender.py:send_request_defer():342] send defer: 5
+2022-11-28 15:19:43,126 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: defer
+2022-11-28 15:19:43,126 INFO    HandlerThread:7929 [handler.py:handle_request_defer():141] handle defer: 5
+2022-11-28 15:19:43,126 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: defer
+2022-11-28 15:19:43,126 INFO    SenderThread:7929 [sender.py:send_request_defer():304] handle sender defer: 5
+2022-11-28 15:19:43,126 INFO    SenderThread:7929 [dir_watcher.py:finish():282] shutting down directory watcher
+2022-11-28 15:19:43,193 INFO    SenderThread:7929 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/config.yaml
+2022-11-28 15:19:43,193 INFO    SenderThread:7929 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/output.log
+2022-11-28 15:19:43,193 INFO    SenderThread:7929 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/wandb-summary.json
+2022-11-28 15:19:43,194 INFO    SenderThread:7929 [dir_watcher.py:finish():312] scan: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files
+2022-11-28 15:19:43,194 INFO    SenderThread:7929 [dir_watcher.py:finish():318] scan save: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/requirements.txt requirements.txt
+2022-11-28 15:19:43,194 INFO    SenderThread:7929 [dir_watcher.py:finish():318] scan save: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/output.log output.log
+2022-11-28 15:19:43,198 INFO    SenderThread:7929 [dir_watcher.py:finish():318] scan save: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/config.yaml config.yaml
+2022-11-28 15:19:43,200 INFO    SenderThread:7929 [dir_watcher.py:finish():318] scan save: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/wandb-summary.json wandb-summary.json
+2022-11-28 15:19:43,204 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: poll_exit
+2022-11-28 15:19:43,204 INFO    SenderThread:7929 [dir_watcher.py:finish():318] scan save: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/conda-environment.yaml conda-environment.yaml
+2022-11-28 15:19:43,207 INFO    SenderThread:7929 [dir_watcher.py:finish():318] scan save: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/wandb-metadata.json wandb-metadata.json
+2022-11-28 15:19:43,208 INFO    SenderThread:7929 [sender.py:send_request_defer():342] send defer: 6
+2022-11-28 15:19:43,208 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: poll_exit
+2022-11-28 15:19:43,208 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: defer
+2022-11-28 15:19:43,208 INFO    HandlerThread:7929 [handler.py:handle_request_defer():141] handle defer: 6
+2022-11-28 15:19:43,209 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: defer
+2022-11-28 15:19:43,211 INFO    SenderThread:7929 [sender.py:send_request_defer():304] handle sender defer: 6
+2022-11-28 15:19:43,211 INFO    SenderThread:7929 [file_pusher.py:finish():176] shutting down file pusher
+2022-11-28 15:19:43,212 INFO    SenderThread:7929 [sender.py:send_request_defer():342] send defer: 7
+2022-11-28 15:19:43,213 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: defer
+2022-11-28 15:19:43,214 INFO    HandlerThread:7929 [handler.py:handle_request_defer():141] handle defer: 7
+2022-11-28 15:19:43,214 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: defer
+2022-11-28 15:19:43,214 INFO    SenderThread:7929 [sender.py:send_request_defer():304] handle sender defer: 7
+2022-11-28 15:19:43,311 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: poll_exit
+2022-11-28 15:19:43,420 INFO    SenderThread:7929 [sender.py:send_request_defer():342] send defer: 8
+2022-11-28 15:19:43,421 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: poll_exit
+2022-11-28 15:19:43,421 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: defer
+2022-11-28 15:19:43,421 INFO    HandlerThread:7929 [handler.py:handle_request_defer():141] handle defer: 8
+2022-11-28 15:19:43,422 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: defer
+2022-11-28 15:19:43,422 INFO    SenderThread:7929 [sender.py:send_request_defer():304] handle sender defer: 8
+2022-11-28 15:19:43,422 INFO    SenderThread:7929 [sender.py:send_request_defer():342] send defer: 9
+2022-11-28 15:19:43,422 DEBUG   SenderThread:7929 [sender.py:send():179] send: final
+2022-11-28 15:19:43,423 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: defer
+2022-11-28 15:19:43,423 INFO    HandlerThread:7929 [handler.py:handle_request_defer():141] handle defer: 9
+2022-11-28 15:19:43,423 DEBUG   SenderThread:7929 [sender.py:send():179] send: footer
+2022-11-28 15:19:43,423 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: defer
+2022-11-28 15:19:43,423 INFO    SenderThread:7929 [sender.py:send_request_defer():304] handle sender defer: 9
+2022-11-28 15:19:43,527 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: poll_exit
+2022-11-28 15:19:43,527 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: poll_exit
+2022-11-28 15:19:43,629 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: poll_exit
+2022-11-28 15:19:43,629 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: poll_exit
+2022-11-28 15:19:43,736 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: poll_exit
+2022-11-28 15:19:43,736 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: poll_exit
+2022-11-28 15:19:43,842 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: poll_exit
+2022-11-28 15:19:43,843 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: poll_exit
+2022-11-28 15:19:43,865 INFO    Thread-13 :7929 [upload_job.py:push():133] Uploaded file /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/output.log
+2022-11-28 15:19:43,869 INFO    Thread-14 :7929 [upload_job.py:push():133] Uploaded file /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/config.yaml
+2022-11-28 15:19:43,882 INFO    Thread-16 :7929 [upload_job.py:push():133] Uploaded file /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/conda-environment.yaml
+2022-11-28 15:19:43,925 INFO    Thread-15 :7929 [upload_job.py:push():133] Uploaded file /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/wandb-summary.json
+2022-11-28 15:19:43,944 INFO    Thread-12 :7929 [upload_job.py:push():133] Uploaded file /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/files/requirements.txt
+2022-11-28 15:19:43,945 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: poll_exit
+2022-11-28 15:19:43,945 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: poll_exit
+2022-11-28 15:19:44,047 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: poll_exit
+2022-11-28 15:19:44,047 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: poll_exit
+2022-11-28 15:19:44,154 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: poll_exit
+2022-11-28 15:19:44,155 DEBUG   SenderThread:7929 [sender.py:send_request():193] send_request: poll_exit
+2022-11-28 15:19:44,155 INFO    SenderThread:7929 [file_pusher.py:join():181] waiting for file pusher
+2022-11-28 15:19:44,157 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: get_summary
+2022-11-28 15:19:44,158 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: sampled_history
+2022-11-28 15:19:44,158 DEBUG   HandlerThread:7929 [handler.py:handle_request():124] handle_request: shutdown
+2022-11-28 15:19:44,159 INFO    HandlerThread:7929 [handler.py:finish():638] shutting down handler
+2022-11-28 15:19:44,427 INFO    WriterThread:7929 [datastore.py:close():258] close: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/components/test_regression_model/wandb/run-20221128_151937-f6wdfetn/run-f6wdfetn.wandb
+2022-11-28 15:19:45,159 INFO    SenderThread:7929 [sender.py:finish():933] shutting down sender
+2022-11-28 15:19:45,160 INFO    SenderThread:7929 [file_pusher.py:finish():176] shutting down file pusher
+2022-11-28 15:19:45,160 INFO    SenderThread:7929 [file_pusher.py:join():181] waiting for file pusher
+2022-11-28 15:19:45,160 INFO    MainThread:7929 [internal.py:handle_exit():78] Internal process exited

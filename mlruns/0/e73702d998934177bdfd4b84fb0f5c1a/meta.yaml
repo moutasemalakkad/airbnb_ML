@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/e73702d998934177bdfd4b84fb0f5c1a/artifacts
+end_time: 1669164507465
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e73702d998934177bdfd4b84fb0f5c1a
+run_name: charming-ram-76
+run_uuid: e73702d998934177bdfd4b84fb0f5c1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669164384043
+status: 4
+tags: []
+user_id: moutasemhome

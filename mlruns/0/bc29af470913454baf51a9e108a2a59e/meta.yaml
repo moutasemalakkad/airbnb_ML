@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/bc29af470913454baf51a9e108a2a59e/artifacts
+end_time: 1669239819864
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bc29af470913454baf51a9e108a2a59e
+run_name: nervous-mole-56
+run_uuid: bc29af470913454baf51a9e108a2a59e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669239693133
+status: 4
+tags: []
+user_id: moutasemhome

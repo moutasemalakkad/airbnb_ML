@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/41b1f7a830df4f4ba96959be91dbe69c/artifacts
+end_time: 1669167439328
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 41b1f7a830df4f4ba96959be91dbe69c
+run_name: hilarious-ox-377
+run_uuid: 41b1f7a830df4f4ba96959be91dbe69c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669166448719
+status: 4
+tags: []
+user_id: moutasemhome

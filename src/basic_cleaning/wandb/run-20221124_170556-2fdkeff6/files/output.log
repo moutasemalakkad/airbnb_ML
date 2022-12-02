@@ -1,0 +1,5 @@
+2022-11-24 17:05:58,749 Downloading data from W&B
+2022-11-24 17:05:59,655 DONE: data cleaned
+2022-11-24 17:05:59,655 saving cleaned data: clean_sample.csv
+2022-11-24 17:05:59,836 DONE: saved csv: clean_sample.csv
+2022-11-24 17:05:59,836 uploading artifact to W&B: clean_sample.csv

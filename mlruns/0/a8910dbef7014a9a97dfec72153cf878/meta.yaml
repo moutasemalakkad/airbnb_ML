@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/a8910dbef7014a9a97dfec72153cf878/artifacts
+end_time: 1669666785704
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a8910dbef7014a9a97dfec72153cf878
+run_name: spiffy-skink-232
+run_uuid: a8910dbef7014a9a97dfec72153cf878
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669666766935
+status: 4
+tags: []
+user_id: moutasemhome

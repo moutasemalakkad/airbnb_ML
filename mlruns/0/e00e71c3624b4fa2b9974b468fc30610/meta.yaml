@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/e00e71c3624b4fa2b9974b468fc30610/artifacts
+end_time: 1669237918832
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e00e71c3624b4fa2b9974b468fc30610
+run_name: orderly-squid-963
+run_uuid: e00e71c3624b4fa2b9974b468fc30610
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669167447581
+status: 4
+tags: []
+user_id: moutasemhome

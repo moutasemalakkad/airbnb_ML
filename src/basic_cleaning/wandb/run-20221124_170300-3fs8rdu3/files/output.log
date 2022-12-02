@@ -1,0 +1,11 @@
+2022-11-24 17:03:03,226 Downloading data from W&B
+2022-11-24 17:03:04,180 DONE: data cleaned
+2022-11-24 17:03:04,180 saving cleaned data: clean_sample.csv
+2022-11-24 17:03:04,367 DONE: saved csv: clean_sample.csv
+2022-11-24 17:03:04,368 uploading artifact to W&B: clean_sample.csv
+Traceback (most recent call last):
+  File "/Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/basic_cleaning/run.py", line 98, in <module>
+    go(args)
+  File "/Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/basic_cleaning/run.py", line 42, in go
+    artifact = wandb.Artifact(args.output_artifact, type=args.artifact_type, description=args.output_description)
+AttributeError: 'Namespace' object has no attribute 'artifact_type'

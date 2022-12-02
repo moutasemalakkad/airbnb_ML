@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/050421807f17490a8d6547eb771d5a5e/artifacts
+end_time: 1669166106543
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 050421807f17490a8d6547eb771d5a5e
+run_name: serious-wren-769
+run_uuid: 050421807f17490a8d6547eb771d5a5e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669165455273
+status: 4
+tags: []
+user_id: moutasemhome

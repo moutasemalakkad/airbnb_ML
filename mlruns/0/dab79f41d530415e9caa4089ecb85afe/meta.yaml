@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/dab79f41d530415e9caa4089ecb85afe/artifacts
+end_time: 1669166441051
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dab79f41d530415e9caa4089ecb85afe
+run_name: ambitious-lynx-422
+run_uuid: dab79f41d530415e9caa4089ecb85afe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669166117739
+status: 4
+tags: []
+user_id: moutasemhome

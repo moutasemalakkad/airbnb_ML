@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/ec1a6141fa43466baa2186d68de2d708/artifacts
+end_time: 1669163619932
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ec1a6141fa43466baa2186d68de2d708
+run_name: fearless-koi-319
+run_uuid: ec1a6141fa43466baa2186d68de2d708
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669163590052
+status: 3
+tags: []
+user_id: moutasemhome

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/3baa16efbca341e48a2f11414c3f154f/artifacts
+end_time: 1669663715071
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3baa16efbca341e48a2f11414c3f154f
+run_name: glamorous-bat-977
+run_uuid: 3baa16efbca341e48a2f11414c3f154f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669663307974
+status: 4
+tags: []
+user_id: moutasemhome

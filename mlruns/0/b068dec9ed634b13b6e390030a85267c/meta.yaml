@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/b068dec9ed634b13b6e390030a85267c/artifacts
+end_time: 1669327021418
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b068dec9ed634b13b6e390030a85267c
+run_name: unleashed-horse-726
+run_uuid: b068dec9ed634b13b6e390030a85267c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669327003461
+status: 4
+tags: []
+user_id: moutasemhome

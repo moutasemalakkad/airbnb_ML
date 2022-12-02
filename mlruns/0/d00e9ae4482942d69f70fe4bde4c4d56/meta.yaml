@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/d00e9ae4482942d69f70fe4bde4c4d56/artifacts
+end_time: 1669327185676
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d00e9ae4482942d69f70fe4bde4c4d56
+run_name: big-fish-49
+run_uuid: d00e9ae4482942d69f70fe4bde4c4d56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669327113842
+status: 4
+tags: []
+user_id: moutasemhome

@@ -1,0 +1,47 @@
+diff --git a/config.yaml b/config.yaml
+index 73b8657..426f9e1 100644
+--- a/config.yaml
++++ b/config.yaml
+@@ -1,5 +1,5 @@
+ main:
+-  components_repository: "https://github.com/udacity/build-ml-pipeline-for-short-term-rental-prices/tree/main/components"
++  components_repository: "https://github.com/udacity/build-ml-pipeline-for-short-term-rental-prices#components"
+   # All the intermediate files will be copied to this directory at the end of the run.
+   # Set this to null if you are running in prod
+   project_name: nyc_airbnb
+diff --git a/main.py b/main.py
+index 9abc5bb..7beff68 100644
+--- a/main.py
++++ b/main.py
+@@ -40,6 +40,7 @@ def go(config: DictConfig):
+             _ = mlflow.run(
+                 f"{config['main']['components_repository']}/get_data",
+                 "main",
++                version="main",
+                 parameters={
+                     "sample": config["etl"]["sample"],
+                     "artifact_name": "sample.csv",
+diff --git a/src/eda/conda.yml b/src/eda/conda.yml
+index 2411369..9d46b83 100644
+--- a/src/eda/conda.yml
++++ b/src/eda/conda.yml
+@@ -3,11 +3,14 @@ channels:
+   - conda-forge
+   - defaults
+ dependencies:
+-  - jupyterlab=3.0.12
++  - python=3.8
++  - jupyter
+   - seaborn=0.11.1
+   - pandas=1.2.3
+   - pip=20.3.3
+-  - pandas-profiling=2.11.0
++  - pandas-profiling
+   - pyarrow=2.0
++  - jinja2=3.0.3
++  - ipywidgets=7.6.3
+   - pip:
+-      - wandb==0.10.31
+\ No newline at end of file
++      - wandb==0.12.17
+\ No newline at end of file

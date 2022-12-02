@@ -1,0 +1,218 @@
+2022-11-23 17:53:24,856 INFO    StreamThr :53064 [internal.py:wandb_internal():88] W&B internal server running at pid: 53064, started at: 2022-11-23 17:53:24.854333
+2022-11-23 17:53:24,858 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: status
+2022-11-23 17:53:24,860 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: status
+2022-11-23 17:53:24,924 DEBUG   SenderThread:53064 [sender.py:send():303] send: header
+2022-11-23 17:53:24,924 INFO    WriterThread:53064 [datastore.py:open_for_write():75] open: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/run-1hjxl2gl.wandb
+2022-11-23 17:53:24,963 DEBUG   SenderThread:53064 [sender.py:send():303] send: run
+2022-11-23 17:53:25,199 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: check_version
+2022-11-23 17:53:25,202 INFO    SenderThread:53064 [dir_watcher.py:__init__():216] watching files in: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files
+2022-11-23 17:53:25,202 INFO    SenderThread:53064 [sender.py:_start_run_threads():928] run started: 1hjxl2gl with start time 1669244004.840876
+2022-11-23 17:53:25,202 DEBUG   SenderThread:53064 [sender.py:send():303] send: summary
+2022-11-23 17:53:25,203 INFO    SenderThread:53064 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-23 17:53:25,203 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: check_version
+2022-11-23 17:53:25,301 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: run_start
+2022-11-23 17:53:25,304 DEBUG   HandlerThread:53064 [system_info.py:__init__():31] System info init
+2022-11-23 17:53:25,304 DEBUG   HandlerThread:53064 [system_info.py:__init__():46] System info init done
+2022-11-23 17:53:25,304 INFO    HandlerThread:53064 [system_monitor.py:start():150] Starting system monitor
+2022-11-23 17:53:25,304 INFO    SystemMonitor:53064 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-11-23 17:53:25,305 INFO    HandlerThread:53064 [system_monitor.py:probe():168] Collecting system info
+2022-11-23 17:53:25,305 DEBUG   HandlerThread:53064 [system_info.py:probe():195] Probing system
+2022-11-23 17:53:25,305 INFO    SystemMonitor:53064 [interfaces.py:start():168] Started cpu
+2022-11-23 17:53:25,306 INFO    SystemMonitor:53064 [interfaces.py:start():168] Started disk
+2022-11-23 17:53:25,306 INFO    SystemMonitor:53064 [interfaces.py:start():168] Started memory
+2022-11-23 17:53:25,307 INFO    SystemMonitor:53064 [interfaces.py:start():168] Started network
+2022-11-23 17:53:25,315 DEBUG   HandlerThread:53064 [system_info.py:_probe_git():180] Probing git
+2022-11-23 17:53:25,362 DEBUG   HandlerThread:53064 [system_info.py:_probe_git():188] Probing git done
+2022-11-23 17:53:25,363 DEBUG   HandlerThread:53064 [system_info.py:probe():241] Probing system done
+2022-11-23 17:53:25,363 DEBUG   HandlerThread:53064 [system_monitor.py:probe():177] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.8.15', 'heartbeatAt': '2022-11-23T22:53:25.305572', 'startedAt': '2022-11-23T22:53:24.823422', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'EDA.ipynb', 'root': '/Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices', 'git': {'remote': 'https://github.com/moutasemalakkad/build-ml-pipeline-for-short-term-rental-prices.git', 'commit': '505a8a27a01e9f6e226f7396e0c3623b0b7d9dbf'}, 'email': 'moutasemalakkad@gmail.com', 'host': 'Moutasems-MBP-2.cable.rcn.com', 'username': 'moutasemhome', 'executable': '/Users/moutasemhome/opt/anaconda3/envs/mlflow-153ae590ccce1e345719611f31ad86ecb9f64cb9/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2200, 'min': 2200, 'max': 2200}, 'cpu_freq_per_core': [{'current': 2200, 'min': 2200, 'max': 2200}], 'disk': {'total': 233.34413528442383, 'used': 203.58425521850586}, 'memory': {'total': 16.0}}
+2022-11-23 17:53:25,363 INFO    HandlerThread:53064 [system_monitor.py:probe():178] Finished collecting system info
+2022-11-23 17:53:25,363 INFO    HandlerThread:53064 [system_monitor.py:probe():181] Publishing system info
+2022-11-23 17:53:25,363 DEBUG   HandlerThread:53064 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-11-23 17:53:25,364 DEBUG   HandlerThread:53064 [system_info.py:_save_pip():67] Saving pip packages done
+2022-11-23 17:53:25,364 DEBUG   HandlerThread:53064 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2022-11-23 17:53:26,207 INFO    Thread-13 :53064 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/wandb-summary.json
+2022-11-23 17:53:26,208 INFO    Thread-13 :53064 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/conda-environment.yaml
+2022-11-23 17:53:26,208 INFO    Thread-13 :53064 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/requirements.txt
+2022-11-23 17:53:30,139 DEBUG   HandlerThread:53064 [system_info.py:_save_conda():86] Saving conda packages done
+2022-11-23 17:53:30,139 DEBUG   HandlerThread:53064 [system_info.py:_save_code():89] Saving code
+2022-11-23 17:53:30,139 WARNING HandlerThread:53064 [system_info.py:_save_code():91] unable to save code -- program entry not found
+2022-11-23 17:53:30,139 DEBUG   HandlerThread:53064 [system_info.py:_save_patches():127] Saving git patches
+2022-11-23 17:53:30,210 INFO    Thread-13 :53064 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/conda-environment.yaml
+2022-11-23 17:53:30,292 DEBUG   HandlerThread:53064 [system_info.py:_save_patches():169] Saving git patches done
+2022-11-23 17:53:30,293 INFO    HandlerThread:53064 [system_monitor.py:probe():183] Finished publishing system info
+2022-11-23 17:53:30,297 DEBUG   SenderThread:53064 [sender.py:send():303] send: files
+2022-11-23 17:53:30,297 INFO    SenderThread:53064 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-11-23 17:53:30,297 INFO    SenderThread:53064 [sender.py:_save_file():1171] saving file diff.patch with policy now
+2022-11-23 17:53:30,312 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-23 17:53:30,312 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: stop_status
+2022-11-23 17:53:30,432 DEBUG   SenderThread:53064 [sender.py:send():303] send: telemetry
+2022-11-23 17:53:30,768 INFO    Thread-16 :53064 [upload_job.py:push():143] Uploaded file /var/folders/qk/l_xbycpx5hv535475y2nss_r0000gn/T/tmp600axui4wandb/6ljr22yk-wandb-metadata.json
+2022-11-23 17:53:30,808 INFO    Thread-17 :53064 [upload_job.py:push():143] Uploaded file /var/folders/qk/l_xbycpx5hv535475y2nss_r0000gn/T/tmp600axui4wandb/2h34g329-diff.patch
+2022-11-23 17:53:31,129 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: log_artifact
+2022-11-23 17:53:31,129 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: log_artifact
+2022-11-23 17:53:31,131 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: pause
+2022-11-23 17:53:31,132 INFO    HandlerThread:53064 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2022-11-23 17:53:31,132 INFO    HandlerThread:53064 [system_monitor.py:finish():160] Stopping system monitor
+2022-11-23 17:53:31,156 DEBUG   SystemMonitor:53064 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-11-23 17:53:31,157 DEBUG   SystemMonitor:53064 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-11-23 17:53:31,157 DEBUG   SystemMonitor:53064 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-11-23 17:53:31,158 INFO    HandlerThread:53064 [interfaces.py:finish():173] Joined cpu
+2022-11-23 17:53:31,158 INFO    HandlerThread:53064 [interfaces.py:finish():173] Joined disk
+2022-11-23 17:53:31,158 INFO    HandlerThread:53064 [interfaces.py:finish():173] Joined memory
+2022-11-23 17:53:31,158 INFO    HandlerThread:53064 [interfaces.py:finish():173] Joined network
+2022-11-23 17:53:31,158 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: resume
+2022-11-23 17:53:31,158 INFO    HandlerThread:53064 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2022-11-23 17:53:31,215 INFO    Thread-13 :53064 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/diff.patch
+2022-11-23 17:53:31,216 INFO    Thread-13 :53064 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/wandb-metadata.json
+2022-11-23 17:53:33,369 INFO    Thread-19 :53064 [upload_job.py:push():101] Uploaded file /Users/moutasemhome/.cache/wandb/artifacts/obj/md5/b4/ed582e4ec3536095504eba3f8238c2
+2022-11-23 17:53:34,174 INFO    SenderThread:53064 [sender.py:send_request_log_artifact():1222] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjg2MzY4OTcx', 'digest': 'bf0296b106a7dc063ed8283854b611a9', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ1OTk1NTE0', 'latestArtifact': None}, 'version': 'latest'}
+2022-11-23 17:53:34,174 DEBUG   SenderThread:53064 [sender.py:send():303] send: stats
+2022-11-23 17:53:34,175 DEBUG   SenderThread:53064 [sender.py:send():303] send: telemetry
+2022-11-23 17:53:45,449 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-23 17:53:45,449 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: stop_status
+2022-11-23 17:53:56,276 INFO    Thread-13 :53064 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/config.yaml
+2022-11-23 17:54:00,578 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-23 17:54:00,578 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: stop_status
+2022-11-23 17:54:10,633 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: log_artifact
+2022-11-23 17:54:10,634 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: log_artifact
+2022-11-23 17:54:10,637 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: pause
+2022-11-23 17:54:10,637 INFO    HandlerThread:53064 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2022-11-23 17:54:10,642 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: resume
+2022-11-23 17:54:10,642 INFO    HandlerThread:53064 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2022-11-23 17:54:10,784 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: log_artifact
+2022-11-23 17:54:10,786 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: pause
+2022-11-23 17:54:10,786 INFO    HandlerThread:53064 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2022-11-23 17:54:10,791 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: resume
+2022-11-23 17:54:10,791 INFO    HandlerThread:53064 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2022-11-23 17:54:10,863 INFO    SenderThread:53064 [sender.py:send_request_log_artifact():1222] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjg2MzY4OTcx', 'digest': 'bf0296b106a7dc063ed8283854b611a9', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ1OTk1NTE0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjg2MzY4OTcx', 'versionIndex': 0}}, 'version': 'v0'}
+2022-11-23 17:54:10,863 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: log_artifact
+2022-11-23 17:54:10,963 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: log_artifact
+2022-11-23 17:54:10,964 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: pause
+2022-11-23 17:54:10,964 INFO    HandlerThread:53064 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2022-11-23 17:54:10,969 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: resume
+2022-11-23 17:54:10,969 INFO    HandlerThread:53064 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2022-11-23 17:54:11,093 INFO    SenderThread:53064 [sender.py:send_request_log_artifact():1222] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjg2MzY4OTcx', 'digest': 'bf0296b106a7dc063ed8283854b611a9', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ1OTk1NTE0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjg2MzY4OTcx', 'versionIndex': 0}}, 'version': 'v0'}
+2022-11-23 17:54:11,094 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: log_artifact
+2022-11-23 17:54:11,309 INFO    Thread-13 :53064 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/output.log
+2022-11-23 17:54:11,309 INFO    Thread-13 :53064 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/code
+2022-11-23 17:54:11,661 INFO    SenderThread:53064 [sender.py:send_request_log_artifact():1222] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjg2MzY4OTcx', 'digest': 'bf0296b106a7dc063ed8283854b611a9', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ1OTk1NTE0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjg2MzY4OTcx', 'versionIndex': 0}}, 'version': 'v0'}
+2022-11-23 17:54:11,662 DEBUG   SenderThread:53064 [sender.py:send():303] send: telemetry
+2022-11-23 17:54:11,662 DEBUG   SenderThread:53064 [sender.py:send():303] send: config
+2022-11-23 17:54:11,807 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: log_artifact
+2022-11-23 17:54:11,807 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: log_artifact
+2022-11-23 17:54:12,312 INFO    Thread-13 :53064 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/code/_session_history.ipynb
+2022-11-23 17:54:12,312 INFO    Thread-13 :53064 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/code
+2022-11-23 17:54:12,434 INFO    Thread-21 :53064 [upload_job.py:push():98] Skipped uploading /Users/moutasemhome/.cache/wandb/artifacts/obj/md5/b4/ed582e4ec3536095504eba3f8238c2
+2022-11-23 17:54:12,814 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-23 17:54:13,312 INFO    Thread-13 :53064 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/output.log
+2022-11-23 17:54:15,289 INFO    Thread-22 :53064 [upload_job.py:push():101] Uploaded file /Users/moutasemhome/.cache/wandb/artifacts/obj/md5/07/76e6f6628f269d9532823f1f80adf0
+2022-11-23 17:54:16,101 INFO    SenderThread:53064 [sender.py:send_request_log_artifact():1222] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjg2MzY5MjMz', 'digest': '87f430f1cc81a49c8027cc52c71d4fd3', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ1OTk1NTE0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjg2MzY4OTcx', 'versionIndex': 0}}, 'version': 'latest'}
+2022-11-23 17:54:16,101 DEBUG   SenderThread:53064 [sender.py:send():303] send: exit
+2022-11-23 17:54:16,101 INFO    SenderThread:53064 [sender.py:send_exit():442] handling exit code: 0
+2022-11-23 17:54:16,101 INFO    SenderThread:53064 [sender.py:send_exit():444] handling runtime: 46
+2022-11-23 17:54:16,103 INFO    SenderThread:53064 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-23 17:54:16,103 INFO    SenderThread:53064 [sender.py:send_exit():450] send defer
+2022-11-23 17:54:16,104 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: poll_exit
+2022-11-23 17:54:16,105 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 17:54:16,105 INFO    HandlerThread:53064 [handler.py:handle_request_defer():162] handle defer: 0
+2022-11-23 17:54:16,106 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: defer
+2022-11-23 17:54:16,106 INFO    SenderThread:53064 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-11-23 17:54:16,106 INFO    SenderThread:53064 [sender.py:transition_state():463] send defer: 1
+2022-11-23 17:54:16,107 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 17:54:16,107 INFO    HandlerThread:53064 [handler.py:handle_request_defer():162] handle defer: 1
+2022-11-23 17:54:16,107 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: defer
+2022-11-23 17:54:16,107 INFO    SenderThread:53064 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-11-23 17:54:16,107 INFO    SenderThread:53064 [sender.py:transition_state():463] send defer: 2
+2022-11-23 17:54:16,107 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 17:54:16,107 INFO    HandlerThread:53064 [handler.py:handle_request_defer():162] handle defer: 2
+2022-11-23 17:54:16,107 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: defer
+2022-11-23 17:54:16,108 INFO    SenderThread:53064 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-11-23 17:54:16,108 INFO    SenderThread:53064 [sender.py:transition_state():463] send defer: 3
+2022-11-23 17:54:16,108 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 17:54:16,108 INFO    HandlerThread:53064 [handler.py:handle_request_defer():162] handle defer: 3
+2022-11-23 17:54:16,108 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: defer
+2022-11-23 17:54:16,108 INFO    SenderThread:53064 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-11-23 17:54:16,108 INFO    SenderThread:53064 [sender.py:transition_state():463] send defer: 4
+2022-11-23 17:54:16,108 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 17:54:16,109 INFO    HandlerThread:53064 [handler.py:handle_request_defer():162] handle defer: 4
+2022-11-23 17:54:16,109 DEBUG   SenderThread:53064 [sender.py:send():303] send: summary
+2022-11-23 17:54:16,109 INFO    SenderThread:53064 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-23 17:54:16,109 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: defer
+2022-11-23 17:54:16,109 INFO    SenderThread:53064 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-11-23 17:54:16,109 INFO    SenderThread:53064 [sender.py:transition_state():463] send defer: 5
+2022-11-23 17:54:16,110 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 17:54:16,110 INFO    HandlerThread:53064 [handler.py:handle_request_defer():162] handle defer: 5
+2022-11-23 17:54:16,110 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: defer
+2022-11-23 17:54:16,110 INFO    SenderThread:53064 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-11-23 17:54:16,248 INFO    SenderThread:53064 [sender.py:transition_state():463] send defer: 6
+2022-11-23 17:54:16,249 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 17:54:16,249 INFO    HandlerThread:53064 [handler.py:handle_request_defer():162] handle defer: 6
+2022-11-23 17:54:16,249 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: defer
+2022-11-23 17:54:16,249 INFO    SenderThread:53064 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-11-23 17:54:16,324 INFO    Thread-13 :53064 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/wandb-summary.json
+2022-11-23 17:54:16,324 INFO    Thread-13 :53064 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/config.yaml
+2022-11-23 17:54:17,104 INFO    SenderThread:53064 [sender.py:transition_state():463] send defer: 7
+2022-11-23 17:54:17,105 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 17:54:17,105 INFO    HandlerThread:53064 [handler.py:handle_request_defer():162] handle defer: 7
+2022-11-23 17:54:17,105 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: defer
+2022-11-23 17:54:17,105 INFO    SenderThread:53064 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-11-23 17:54:17,105 INFO    SenderThread:53064 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-11-23 17:54:17,325 INFO    Thread-13 :53064 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/output.log
+2022-11-23 17:54:17,327 INFO    SenderThread:53064 [dir_watcher.py:finish():392] scan: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files
+2022-11-23 17:54:17,327 INFO    SenderThread:53064 [dir_watcher.py:finish():406] scan save: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/diff.patch diff.patch
+2022-11-23 17:54:17,327 INFO    SenderThread:53064 [dir_watcher.py:finish():406] scan save: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/requirements.txt requirements.txt
+2022-11-23 17:54:17,328 INFO    SenderThread:53064 [dir_watcher.py:finish():406] scan save: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/output.log output.log
+2022-11-23 17:54:17,333 INFO    SenderThread:53064 [dir_watcher.py:finish():406] scan save: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/config.yaml config.yaml
+2022-11-23 17:54:17,338 INFO    SenderThread:53064 [dir_watcher.py:finish():406] scan save: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/wandb-summary.json wandb-summary.json
+2022-11-23 17:54:17,341 INFO    SenderThread:53064 [dir_watcher.py:finish():406] scan save: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/conda-environment.yaml conda-environment.yaml
+2022-11-23 17:54:17,345 INFO    SenderThread:53064 [dir_watcher.py:finish():406] scan save: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/wandb-metadata.json wandb-metadata.json
+2022-11-23 17:54:17,348 INFO    SenderThread:53064 [dir_watcher.py:finish():406] scan save: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/code/_session_history.ipynb code/_session_history.ipynb
+2022-11-23 17:54:17,348 INFO    SenderThread:53064 [sender.py:transition_state():463] send defer: 8
+2022-11-23 17:54:17,351 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 17:54:17,351 INFO    HandlerThread:53064 [handler.py:handle_request_defer():162] handle defer: 8
+2022-11-23 17:54:17,352 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: defer
+2022-11-23 17:54:17,352 INFO    SenderThread:53064 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-11-23 17:54:17,352 INFO    SenderThread:53064 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-23 17:54:17,783 INFO    Thread-26 :53064 [upload_job.py:push():143] Uploaded file /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/wandb-summary.json
+2022-11-23 17:54:17,798 INFO    Thread-23 :53064 [upload_job.py:push():143] Uploaded file /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/requirements.txt
+2022-11-23 17:54:17,803 INFO    Thread-27 :53064 [upload_job.py:push():143] Uploaded file /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/conda-environment.yaml
+2022-11-23 17:54:17,811 INFO    Thread-24 :53064 [upload_job.py:push():143] Uploaded file /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/output.log
+2022-11-23 17:54:17,812 INFO    Thread-25 :53064 [upload_job.py:push():143] Uploaded file /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/config.yaml
+2022-11-23 17:54:17,827 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-23 17:54:20,536 INFO    Thread-28 :53064 [upload_job.py:push():143] Uploaded file /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/files/code/_session_history.ipynb
+2022-11-23 17:54:20,740 INFO    Thread-12 :53064 [sender.py:transition_state():463] send defer: 9
+2022-11-23 17:54:20,741 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 17:54:20,741 INFO    HandlerThread:53064 [handler.py:handle_request_defer():162] handle defer: 9
+2022-11-23 17:54:20,741 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: defer
+2022-11-23 17:54:20,741 INFO    SenderThread:53064 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-11-23 17:54:20,741 INFO    SenderThread:53064 [file_pusher.py:join():173] waiting for file pusher
+2022-11-23 17:54:20,741 INFO    SenderThread:53064 [sender.py:transition_state():463] send defer: 10
+2022-11-23 17:54:20,741 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 17:54:20,742 INFO    HandlerThread:53064 [handler.py:handle_request_defer():162] handle defer: 10
+2022-11-23 17:54:20,742 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: defer
+2022-11-23 17:54:20,742 INFO    SenderThread:53064 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-11-23 17:54:20,811 INFO    SenderThread:53064 [sender.py:transition_state():463] send defer: 11
+2022-11-23 17:54:20,816 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 17:54:20,816 INFO    HandlerThread:53064 [handler.py:handle_request_defer():162] handle defer: 11
+2022-11-23 17:54:20,817 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: defer
+2022-11-23 17:54:20,817 INFO    SenderThread:53064 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-11-23 17:54:20,817 INFO    SenderThread:53064 [sender.py:transition_state():463] send defer: 12
+2022-11-23 17:54:20,821 DEBUG   SenderThread:53064 [sender.py:send():303] send: final
+2022-11-23 17:54:20,821 DEBUG   SenderThread:53064 [sender.py:send():303] send: footer
+2022-11-23 17:54:20,821 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: defer
+2022-11-23 17:54:20,857 INFO    HandlerThread:53064 [handler.py:handle_request_defer():162] handle defer: 12
+2022-11-23 17:54:20,857 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: defer
+2022-11-23 17:54:20,877 INFO    SenderThread:53064 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-11-23 17:54:20,879 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-23 17:54:20,880 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: server_info
+2022-11-23 17:54:20,880 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: poll_exit
+2022-11-23 17:54:20,882 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: get_summary
+2022-11-23 17:54:20,882 DEBUG   SenderThread:53064 [sender.py:send_request():317] send_request: server_info
+2022-11-23 17:54:20,883 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: sampled_history
+2022-11-23 17:54:20,984 DEBUG   HandlerThread:53064 [handler.py:handle_request():139] handle_request: shutdown
+2022-11-23 17:54:20,984 INFO    HandlerThread:53064 [handler.py:finish():814] shutting down handler
+2022-11-23 17:54:21,821 INFO    WriterThread:53064 [datastore.py:close():279] close: /Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20221123_175324-1hjxl2gl/run-1hjxl2gl.wandb
+2022-11-23 17:54:21,985 INFO    SenderThread:53064 [sender.py:finish():1331] shutting down sender
+2022-11-23 17:54:21,986 INFO    SenderThread:53064 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-23 17:54:21,986 INFO    SenderThread:53064 [file_pusher.py:join():173] waiting for file pusher
+2022-11-23 17:55:49,133 INFO    MainThread:53064 [internal.py:handle_exit():78] Internal process exited

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/7e02527bc8d944b09e0683667903caca/artifacts
+end_time: 1669659828847
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7e02527bc8d944b09e0683667903caca
+run_name: nebulous-carp-210
+run_uuid: 7e02527bc8d944b09e0683667903caca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669659592056
+status: 3
+tags: []
+user_id: moutasemhome

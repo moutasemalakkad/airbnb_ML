@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/039d0f3c8ad540feb744c65026c23eba/artifacts
+end_time: 1669163990123
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 039d0f3c8ad540feb744c65026c23eba
+run_name: able-perch-414
+run_uuid: 039d0f3c8ad540feb744c65026c23eba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669163788287
+status: 4
+tags: []
+user_id: moutasemhome

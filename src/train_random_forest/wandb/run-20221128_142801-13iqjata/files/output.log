@@ -1,0 +1,25 @@
+2022-11-28 14:28:04,982 Minimum price: 10, Maximum price: 350
+2022-11-28 14:28:04,997 Preparing sklearn pipeline
+2022-11-28 14:28:04,998 Fitting
+Traceback (most recent call last):
+  File "run.py", line 309, in <module>
+    go(args)
+  File "run.py", line 82, in go
+    sk_pipe.fit(X_train, y_train)
+  File "/Users/moutasemhome/opt/anaconda3/envs/mlflow-5fdf16e46ab1f03d820360695f0f3a66fe63e54f/lib/python3.8/site-packages/sklearn/pipeline.py", line 346, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "/Users/moutasemhome/opt/anaconda3/envs/mlflow-5fdf16e46ab1f03d820360695f0f3a66fe63e54f/lib/python3.8/site-packages/sklearn/ensemble/_forest.py", line 387, in fit
+    trees = Parallel(n_jobs=self.n_jobs, verbose=self.verbose,
+  File "/Users/moutasemhome/opt/anaconda3/envs/mlflow-5fdf16e46ab1f03d820360695f0f3a66fe63e54f/lib/python3.8/site-packages/joblib/parallel.py", line 1098, in __call__
+    self.retrieve()
+  File "/Users/moutasemhome/opt/anaconda3/envs/mlflow-5fdf16e46ab1f03d820360695f0f3a66fe63e54f/lib/python3.8/site-packages/joblib/parallel.py", line 975, in retrieve
+    self._output.extend(job.get(timeout=self.timeout))
+  File "/Users/moutasemhome/opt/anaconda3/envs/mlflow-5fdf16e46ab1f03d820360695f0f3a66fe63e54f/lib/python3.8/multiprocessing/pool.py", line 765, in get
+    self.wait(timeout)
+  File "/Users/moutasemhome/opt/anaconda3/envs/mlflow-5fdf16e46ab1f03d820360695f0f3a66fe63e54f/lib/python3.8/multiprocessing/pool.py", line 762, in wait
+    self._event.wait(timeout)
+  File "/Users/moutasemhome/opt/anaconda3/envs/mlflow-5fdf16e46ab1f03d820360695f0f3a66fe63e54f/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/Users/moutasemhome/opt/anaconda3/envs/mlflow-5fdf16e46ab1f03d820360695f0f3a66fe63e54f/lib/python3.8/threading.py", line 302, in wait
+    waiter.acquire()
+KeyboardInterrupt

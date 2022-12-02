@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/mlruns/0/8d421646aa4249ba8c7232d682672fbb/artifacts
+end_time: 1669164113893
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d421646aa4249ba8c7232d682672fbb
+run_name: intrigued-flea-2
+run_uuid: 8d421646aa4249ba8c7232d682672fbb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669164110307
+status: 4
+tags: []
+user_id: moutasemhome

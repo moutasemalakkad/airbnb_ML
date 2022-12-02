@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/moutasemhome/code/ai/mlops/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/0c43f84846b946f1b8c9c73e1d913b21/artifacts
+end_time: 1669661535882
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0c43f84846b946f1b8c9c73e1d913b21
+run_name: powerful-fish-193
+run_uuid: 0c43f84846b946f1b8c9c73e1d913b21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669661529950
+status: 3
+tags: []
+user_id: moutasemhome
